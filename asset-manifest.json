@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/utssedapetnya/static/css/main.9def2674.css",
+    "main.js": "/utssedapetnya/static/js/main.9b559717.js",
+    "static/media/p2.jpg": "/utssedapetnya/static/media/p2.5a1f8055f3ce230ef3ce.jpg",
+    "static/media/logoPolri.png": "/utssedapetnya/static/media/logoPolri.bbd12a1db5bede2196ca.png",
+    "index.html": "/utssedapetnya/index.html",
+    "main.9def2674.css.map": "/utssedapetnya/static/css/main.9def2674.css.map",
+    "main.9b559717.js.map": "/utssedapetnya/static/js/main.9b559717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9def2674.css",
+    "static/js/main.9b559717.js"
+  ]
+}
