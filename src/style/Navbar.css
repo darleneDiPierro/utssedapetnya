@@ -1,0 +1,28 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navbar .login {
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.links {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding: 40px;
+}

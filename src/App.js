@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Login from './Login';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import InformasiPenduduk from './InformasiPenduduk';
+import Navbar from './Navbar';
+import DataPenduduk from './DataPenduduk';
+import LandingPage from './LandingPage';
 
-function App() {
+
+const App = () => {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <LandingPage />
+        </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/informasi">
+          <InformasiPenduduk />
+        </Route>
+        <Route path="/data">
+          <DataPenduduk />
+        </Route>
+      </Switch>
+    </Router>
+  )
 }
 
 export default App;

@@ -1,0 +1,28 @@
+.landing {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.landing::before {
+  background-image: url('../images/p2.jpg');
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  content: '';
+  background-color: #333834;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.landing h1 {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
